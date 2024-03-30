@@ -40,9 +40,10 @@ while(1>0)
     }
     else if(a.ask === "Show your list")
     {
+        console.log("Sure, here are your to do's:\n")
         for(let i = 0; i<tasks.length;i++)
         {
-            console.log("Sure, here are your to do's \n" + tasks[i] + '\n')
+            console.log(tasks[i] + '\n')
         }
     }
     else if(a.ask === "Exit")
